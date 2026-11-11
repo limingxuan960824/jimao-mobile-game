@@ -1,0 +1,19 @@
+{
+  "source": {
+    "filename": "几猫国产3A大作_V1.html",
+    "sha256": "9e55b5200b088adaf8e1152da04efc0d3b25e236e6baf2dee96f81e23e084966",
+    "bytes": 1425707
+  },
+  "extracted": {
+    "javascript": {
+      "path": "src/game.js",
+      "sha256": "96ec824cb4f09ee11915322be8357555e79c6ff00f301774552e398555e10476",
+      "bytes": 1393607
+    },
+    "css": {
+      "path": "src/game.css",
+      "sha256": "6d5fe8722fa0ed1113bf37a1fdce73fbc2519ddd28371fcb99cca19902f74c24",
+      "bytes": 31513
+    }
+  }
+}
