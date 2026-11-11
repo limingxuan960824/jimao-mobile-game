@@ -7,6 +7,7 @@
 - 手机：使用横屏。左侧滑动移动，右侧滑动转向；屏幕按钮用于开火、瞄准、换弹、跳跃、交互和暂停。
 - 电脑：使用键盘与鼠标。首次开始行动后点击游戏画面以锁定鼠标。
 - 支持安装为 PWA，并在首次完整加载后离线游玩。
+- 手机默认从高画质档启动；引擎会在持续低帧率时动态降低渲染负载，设置页也可手动选择低、中、高或极高画质。
 
 ## 本地运行
 
@@ -20,6 +21,6 @@ npx serve .
 
 原始文件 SHA-256：`9e55b5200b088adaf8e1152da04efc0d3b25e236e6baf2dee96f81e23e084966`
 
-拆分后的脚本与样式摘要记录在 `source-manifest.json`。`src/game.js` 保留原游戏逻辑；移动端壳层位于 `src/mobile-shell.js` 与 `src/mobile-shell.css`。
+拆分后的脚本与样式摘要记录在 `source-manifest.json`。移动端壳层位于 `src/mobile-shell.js` 与 `src/mobile-shell.css`；高清默认档的可重复补丁位于 `scripts/apply-mobile-hd.mjs`。
 
 本项目未声明开源许可证。除非权利人另行授权，公开访问不等于授予复制、修改或再分发许可。
